@@ -1,0 +1,19 @@
+NOTES -*- mode: org -*-
+#+STARTUP: hidestars indent overview
+
+* Chocolate sandwich
+** Ingredients
+- 2 slices of bread
+- 8 squares of chocolate
+** Steps
+- Take one slice of bread, and place the squares of chocolate on top.
+- Place the second slice of bread on top of the squares.
+* Butter and cheese sandwich
+** Ingredients
+- 2 slices of bread
+- Butter
+- 2 slices of cheese
+** Steps
+- Take one slice of bread, butter it, and place a slice of cheese on top of it.
+- Take the other slice of bread, butter it, and place the other slice of cheese on top of it.
+- Join both halves.
