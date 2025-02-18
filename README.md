@@ -1,6 +1,6 @@
 # `sukaldari`
 
-`sukaldari` is a recipe framework, and Python library designed for flexibility.
+`sukaldari` is a recipe framework, and Python library; designed for flexibility.
 
 ## Data model
 Recipes are formed by structs `Recipe`, `Ingredient` and `Step`; which are described, respectively, in the below three tables.
@@ -107,7 +107,7 @@ Or in JSON Schema format:
 ```
 
 ## Use case
-I've had my recipes scattered across many loose pieces of paper for years. As a Emacs and Org mode user, I figured the most convenient way to manage them would be a very simple `.org` file such as the below one. The follow-up question to such a set-up is, how does one share the recipes? And so the data model was born.
+I've had my recipes scattered across many loose pieces of paper for years. As am Emacs and Org mode user, I figured the most convenient way to manage them would be a very simple `.org` file such as the below one. The follow-up question to such a set-up is, how does one share the recipes? And so the data model was born.
 
 ```org
 * Chocolate sandwich
