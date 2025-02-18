@@ -3,7 +3,7 @@
 `sukaldari` is a recipe framework, and Python library designed for flexibility.
 
 ## Data model
-Recipes are formed by structs `Recipe`, `Ingredient` and `Step`--described in the below three tables, respectively; or in JSON Schema format below them.
+Recipes are formed by structs `Recipe`, `Ingredient` and `Step`; which are described, respectively, in the below three tables.
 - `Recipe` struct.
 
 | Attribute name | Attribute type |
@@ -24,6 +24,8 @@ Recipes are formed by structs `Recipe`, `Ingredient` and `Step`--described in th
 |---|---|
 | step | string |
 
+
+Or in JSON Schema format:
 ```json
 {
     "$ref": "#/$defs/Recipe",
