@@ -5,18 +5,21 @@
 ## Data model
 Recipes are formed by structs `Recipe`, `Ingredient` and `Step`--described in the below three tables, respectively; or in JSON Schema format below them.
 - `Recipe` struct.
+
 | Attribute name | Attribute type |
 |---|---|
 | name | string |
 | ingredients | Array of `Ingredient` structs |
 | steps | Array of `Step` structs |
 - `Ingredient` struct.
+
 | Attribute name | Attribute type |
 |---|---|
 | ingredient | string |
 | amount | string or null |
 | unit | string or null |
 - `Step` struct.
+
 | Attribute name | Attribute type |
 |---|---|
 | step | string |
